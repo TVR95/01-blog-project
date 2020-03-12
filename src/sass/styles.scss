@@ -1,4 +1,6 @@
 @import 'config';
+@import 'post';
+@import 'menu';
 
 body {
     background-color: $primary-color;
@@ -7,11 +9,25 @@ body {
     line-height: 1;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     color: set-text-color($primary-color);
     text-decoration: none;
+}
+
+header {
+    background-color: $secondary-color;
+    border-bottom: 1px solid $fourth-color;
+}
+
+footer {
+    text-align: center;
 }

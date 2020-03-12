@@ -5,6 +5,33 @@
   padding: 0;
 }
 
+.post {
+  border: 1px solid #dcdde1;
+  margin: 3rem;
+  padding: 1rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  color: #000;
+  text-align: center;
+}
+
+.menu a {
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2rem;
+}
+
+.menu a:hover {
+  color: #f5f6fa;
+}
+
+.menu li {
+  display: inline;
+}
+
 body {
   background-color: #f5f6fa;
   color: #000;
@@ -12,12 +39,26 @@ body {
   line-height: 1;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   color: #000;
   text-decoration: none;
+}
+
+header {
+  background-color: #0097e6;
+  border-bottom: 1px solid #dcdde1;
+}
+
+footer {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
