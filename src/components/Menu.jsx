@@ -5,9 +5,9 @@ function Menu() {
     return (
         <div className="menu">
             <ul>
-                <li><Link to="#">Home</Link></li>
+                <li><Link to="/home">Home</Link></li>
                 <li><Link to="#">About</Link></li>
-                <li><Link to="#">Panel</Link></li>
+                <li><Link to="/panel">Panel</Link></li>
             </ul>
         </div>
     );

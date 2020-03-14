@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Post(props) {
     return (
         <div className="post">
-            <h2>{props.title}</h2>
+            <Link key={props.id} to={`/post/${props.id}`}><h2>{props.title}</h2></Link>
             <p>{props.content}</p>
             <h5>{props.date}</h5>
             <h5>{props.tags}</h5>
